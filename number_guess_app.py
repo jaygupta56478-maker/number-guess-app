@@ -343,4 +343,7 @@ if __name__ == "__main__":
     print("  ─────────────────────────────")
     print("  Open → http://localhost:5000")
     print("  Press Ctrl+C to stop\n")
-    app.run(debug=True, port=5000)
+    import os
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
