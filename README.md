@@ -1,6 +1,6 @@
 # Number Guess Game (C)
 
-A simple number guessing game built using C.
+A simple number guessing game built using python.
 
 ## Features
 - Random number generation
